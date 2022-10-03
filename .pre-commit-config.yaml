@@ -9,3 +9,7 @@ repos:
     hooks:
       - id: remove-print-statements
         args: ["--verbose"] # Show all the print statements to be removed
+  - repo: https://github.com/PyCQA/autoflake
+    rev: v1.6.1
+    hooks:
+      - id: autoflake
