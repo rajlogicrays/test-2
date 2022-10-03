@@ -4,3 +4,8 @@ repos:
     hooks:
       - id: black
         exclude: \.py-tpl$
+  - repo: https://github.com/dhruvmanila/remove-print-statements
+    rev: "" # Replace with latest tag on GitHub
+    hooks:
+      - id: remove-print-statements
+        args: ["--verbose"] # Show all the print statements to be removed
